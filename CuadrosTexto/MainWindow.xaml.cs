@@ -25,7 +25,7 @@ namespace CuadrosTexto
             InitializeComponent();
         }
 
-        private void F1TextBlock(object sender, KeyEventArgs e)
+        private void F1TextBox_KeyDown(object sender, KeyEventArgs e)
         {
             TextBox textBox = (TextBox)sender;
             if(e.Key == Key.F1 && MensajeAyudaTextBox.Text == "")
@@ -38,7 +38,7 @@ namespace CuadrosTexto
             }
         }
 
-        private void F2TextxBox(object sender, KeyEventArgs e)
+        private void F2TextxBox_KeyDown(object sender, KeyEventArgs e)
         {
             TextBox textBox = (TextBox)sender;
             if (e.Key == Key.F2)

@@ -37,7 +37,7 @@
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="120"
-                 KeyDown="F1TextBlock"
+                 KeyDown="F1TextBox_KeyDown"
                  Tag="Mensaje de ayuda del campo nombre, Introduce tu nombre" />
         <TextBox x:Name="ApellidoTextBox"
                  HorizontalAlignment="Center"
@@ -46,7 +46,7 @@
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="120"
-                 KeyDown="F1TextBlock"
+                 KeyDown="F1TextBox_KeyDown"
                  Tag="Mensaje de ayuda del campo nombre, Introduce tu apellido" />
         <TextBox x:Name="EdadTextBox"
                  HorizontalAlignment="Left"
@@ -55,7 +55,7 @@
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
                  Width="120"
-                 KeyDown="F2TextxBox" />
+                 KeyDown="F2TextxBox_KeyDown" />
         <TextBlock x:Name="MensajeAyudaTextBox"
                    HorizontalAlignment="Center"
                    Margin="0,102,0,0"
