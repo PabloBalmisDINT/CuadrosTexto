@@ -41,10 +41,9 @@ namespace CuadrosTexto
         private void F2TextxBox(object sender, KeyEventArgs e)
         {
             TextBox textBox = (TextBox)sender;
-            int res;
-            if(e.Key == Key.F2)
+            if (e.Key == Key.F2)
             {
-                if (int.TryParse(textBox.Text, out res))
+                if (int.TryParse(textBox.Text, out _))
                 {
                     MessageBox.Show("El valor introducido es correcto");
                 }
